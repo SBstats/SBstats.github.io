@@ -7,41 +7,26 @@
   <meta name="Generator" content="Cocoa HTML Writer">
   <meta name="CocoaVersion" content="2113.6">
   <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Menlo; color: #bdc6d0; -webkit-text-stroke: #bdc6d0}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Menlo; color: #bdc6d0; -webkit-text-stroke: #bdc6d0; min-height: 14.0px}
-    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Menlo; color: #96ccff; -webkit-text-stroke: #96ccff}
-    span.s1 {font-kerning: none; background-color: #0c0e12}
-    span.s2 {font-kerning: none}
-    span.s3 {font-kerning: none; color: #bdc6d0; background-color: #0c0e12; -webkit-text-stroke: 0px #bdc6d0}
-    span.s4 {font-kerning: none; color: #6fe674; background-color: #0c0e12; -webkit-text-stroke: 0px #6fe674}
-    span.s5 {font-kerning: none; color: #68b1ff; background-color: #0c0e12; -webkit-text-stroke: 0px #68b1ff}
-    span.s6 {font-kerning: none; color: #96ccff; background-color: #0c0e12; -webkit-text-stroke: 0px #96ccff}
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    li.li1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    li.li2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #0000e9; -webkit-text-stroke: #0000e9}
+    span.s1 {font-kerning: none}
+    span.s2 {-webkit-text-stroke: 0px #000000}
+    span.s3 {text-decoration: underline ; font-kerning: none; color: #0000e9}
+    span.s4 {text-decoration: underline ; font-kerning: none; color: #0000e9; -webkit-text-stroke: 0px #0000e9}
+    ul.ul1 {list-style-type: disc}
   </style>
 </head>
 <body>
 <p class="p1"><span class="s1">{% include base_path %}</span></p>
-<p class="p2"><span class="s2"></span><br></p>
-<p class="p3"><span class="s3">&lt;</span><span class="s4">div</span><span class="s3"> </span><span class="s5">class</span><span class="s3">=</span><span class="s1">"page__footer-follow"</span><span class="s3">&gt;</span></p>
-<p class="p3"><span class="s3"><span class="Apple-converted-space">  </span>&lt;</span><span class="s4">ul</span><span class="s3"> </span><span class="s5">class</span><span class="s3">=</span><span class="s1">"social-icons"</span><span class="s3">&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>{% if site.data.ui-text[site.locale].follow_label %}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;</span><span class="s4">li</span><span class="s1">&gt;&lt;</span><span class="s4">strong</span><span class="s1">&gt;{{ site.data.ui-text[site.locale].follow_label }}&lt;/</span><span class="s4">strong</span><span class="s1">&gt;&lt;/</span><span class="s4">li</span><span class="s1">&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>{% endif %}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>{% if site.twitter.username %}</span></p>
-<p class="p3"><span class="s3"><span class="Apple-converted-space">      </span>&lt;</span><span class="s4">li</span><span class="s3">&gt;&lt;</span><span class="s4">a</span><span class="s3"> </span><span class="s5">href</span><span class="s3">=</span><span class="s1">"https://twitter.com/{{ site.twitter.username }}"</span><span class="s3">&gt;&lt;</span><span class="s4">i</span><span class="s3"> </span><span class="s5">class</span><span class="s3">=</span><span class="s1">"fab fa-twitter-square"</span><span class="s3"> </span><span class="s5">aria-hidden</span><span class="s3">=</span><span class="s1">"true"</span><span class="s3">&gt;&lt;/</span><span class="s4">i</span><span class="s3">&gt; Twitter&lt;/</span><span class="s4">a</span><span class="s3">&gt;&lt;/</span><span class="s4">li</span><span class="s3">&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>{% endif %}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>{% if site.facebook.username %}</span></p>
-<p class="p3"><span class="s3"><span class="Apple-converted-space">      </span>&lt;</span><span class="s4">li</span><span class="s3">&gt;&lt;</span><span class="s4">a</span><span class="s3"> </span><span class="s5">href</span><span class="s3">=</span><span class="s1">"https://facebook.com/{{ site.facebook.username }}"</span><span class="s3">&gt;&lt;</span><span class="s4">i</span><span class="s3"> </span><span class="s5">class</span><span class="s3">=</span><span class="s1">"fab fa-facebook-square"</span><span class="s3"> </span><span class="s5">aria-hidden</span><span class="s3">=</span><span class="s1">"true"</span><span class="s3">&gt;&lt;/</span><span class="s4">i</span><span class="s3">&gt; Facebook&lt;/</span><span class="s4">a</span><span class="s3">&gt;&lt;/</span><span class="s4">li</span><span class="s3">&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>{% endif %}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>{% if site.author.github %}</span></p>
-<p class="p3"><span class="s3"><span class="Apple-converted-space">      </span>&lt;</span><span class="s4">li</span><span class="s3">&gt;&lt;</span><span class="s4">a</span><span class="s3"> </span><span class="s5">href</span><span class="s3">=</span><span class="s1">"http://github.com/{{ site.author.github }}"</span><span class="s3">&gt;&lt;</span><span class="s4">i</span><span class="s3"> </span><span class="s5">class</span><span class="s3">=</span><span class="s1">"fab fa-github"</span><span class="s3"> </span><span class="s5">aria-hidden</span><span class="s3">=</span><span class="s1">"true"</span><span class="s3">&gt;&lt;/</span><span class="s4">i</span><span class="s3">&gt; GitHub&lt;/</span><span class="s4">a</span><span class="s3">&gt;&lt;/</span><span class="s4">li</span><span class="s3">&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>{% endif %}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>{% if site.author.bitbucket %}</span></p>
-<p class="p3"><span class="s3"><span class="Apple-converted-space">      </span>&lt;</span><span class="s4">li</span><span class="s3">&gt;&lt;</span><span class="s4">a</span><span class="s3"> </span><span class="s5">href</span><span class="s3">=</span><span class="s1">"http://bitbucket.org/{{ site.author.bitbucket }}"</span><span class="s3">&gt;&lt;</span><span class="s4">i</span><span class="s3"> </span><span class="s5">class</span><span class="s3">=</span><span class="s1">"fab fa-bitbucket"</span><span class="s3"> </span><span class="s5">aria-hidden</span><span class="s3">=</span><span class="s1">"true"</span><span class="s3">&gt;&lt;/</span><span class="s4">i</span><span class="s3">&gt; Bitbucket&lt;/</span><span class="s4">a</span><span class="s3">&gt;&lt;/</span><span class="s4">li</span><span class="s3">&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>{% endif %}</span></p>
-<p class="p3"><span class="s3"><span class="Apple-converted-space">    </span>&lt;</span><span class="s4">li</span><span class="s3">&gt;&lt;</span><span class="s4">a</span><span class="s3"> </span><span class="s5">href</span><span class="s3">=</span><span class="s1">"{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}"</span><span class="s3">&gt;&lt;</span><span class="s4">i</span><span class="s3"> </span><span class="s5">class</span><span class="s3">=</span><span class="s1">"fa fa-fw fa-rss-square"</span><span class="s3"> </span><span class="s5">aria-hidden</span><span class="s3">=</span><span class="s1">"true"</span><span class="s3">&gt;&lt;/</span><span class="s4">i</span><span class="s3">&gt; {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}&lt;/</span><span class="s4">a</span><span class="s3">&gt;&lt;/</span><span class="s4">li</span><span class="s3">&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/</span><span class="s4">ul</span><span class="s1">&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/</span><span class="s4">div</span><span class="s1">&gt;</span></p>
-<p class="p2"><span class="s2"></span><br></p>
-<p class="p1"><span class="s1">&lt;</span><span class="s4">div</span><span class="s1"> </span><span class="s5">class</span><span class="s1">=</span><span class="s6">"page__footer-copyright"</span><span class="s1">&gt;</span><span class="s5">&amp;copy;</span><span class="s1"> {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} &lt;</span><span class="s4">a</span><span class="s1"> </span><span class="s5">href</span><span class="s1">=</span><span class="s6">"http://jekyllrb.com"</span><span class="s1"> </span><span class="s5">rel</span><span class="s1">=</span><span class="s6">"nofollow"</span><span class="s1">&gt;Jekyll&lt;/</span><span class="s4">a</span><span class="s1">&gt; </span><span class="s5">&amp;amp;</span><span class="s1"> &lt;</span><span class="s4">a</span><span class="s1"> </span><span class="s5">href</span><span class="s1">=</span><span class="s6">"https://github.com/academicpages/academicpages.github.io"</span><span class="s1">&gt;AcademicPages&lt;/</span><span class="s4">a</span><span class="s1">&gt;, a fork of &lt;</span><span class="s4">a</span><span class="s1"> </span><span class="s5">href</span><span class="s1">=</span><span class="s6">"https://mademistakes.com/work/minimal-mistakes-jekyll-theme/"</span><span class="s1"> </span><span class="s5">rel</span><span class="s1">=</span><span class="s6">"nofollow"</span><span class="s1">&gt;Minimal Mistakes&lt;/</span><span class="s4">a</span><span class="s1">&gt;.&lt;/</span><span class="s4">div</span><span class="s1">&gt;</span></p>
+<ul class="ul1">
+  <li class="li1"><span class="s2"></span><span class="s1">{% if site.data.ui-text[site.locale].follow_label %}</span></li>
+  <li class="li1"><span class="s2"><b></b></span><span class="s1"><b>{{ site.data.ui-text[site.locale].follow_label }}</b></span></li>
+  <li class="li1"><span class="s2"></span><span class="s1">{% endif %} {% if site.author.github %}</span></li>
+  <li class="li2"><span class="s2"><a href="http://github.com/%7B%7B%20site.author.github%20%7D%7D"><span class="s3">GitHub</span></a></span></li>
+  <li class="li1"><span class="s2"></span><span class="s1">{% endif %}</span></li>
+  <li class="li2"><span class="s2"><a href="file:///Users/saurabhbhandari/Desktop/SBstats.github.io/_includes/%7B%25%20if%20site.atom_feed.path%20%25%7D%7B%7B%20site.atom_feed.path%20%7D%7D%7B%25%20else%20%25%7D%7B%7B%20base_path%20%7D%7D/feed.xml%7B%25%20endif%20%25%7D"><span class="s3">{{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</span></a></span></li>
+</ul>
+<p class="p1"><span class="s1">© {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com/"><span class="s4">Jekyll</span></a> &amp; <a href="https://github.com/academicpages/academicpages.github.io"><span class="s4">AcademicPages</span></a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/"><span class="s4">Minimal Mistakes</span></a>.</span></p>
 </body>
 </html>
