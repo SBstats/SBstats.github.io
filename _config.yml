@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Personal Webpage"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Saurabh Bhandari"
 description              : &description "personal description"
