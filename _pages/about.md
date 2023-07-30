@@ -13,9 +13,9 @@ I am a graduate student at the University of Florida, working on my Ph.D. in Sta
 
 
 
-## News
+## Recent Updates
 
-  * May, 2023 - Aug 2023: Summer internship at Regeneron Pharmaceuticals in Tarrytown, New York 
+  * May 2023 - Aug 2023: Summer internship at Regeneron Pharmaceuticals in Tarrytown, New York 
       * **Supervisor**: Dr. CG Wang
   * Dec 2023: Invited Talk at CMStatistics 2023, Berlin, Germany
       * **Paper**: A Bayesian semi-parametric approach to causal mediation for longitudinal mediators and time-to-event outcomes
