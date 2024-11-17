@@ -8,16 +8,23 @@ redirect_from:
   - /about.html
 ---
 
-I am a graduate student at the University of Florida, working on my Ph.D. in Statistics. My academic advisor is Dr. Michael J. Daniels. My research interests lie at the intersection of Bayesian statistics, causal inference, and machine learning. Specifically, I am interested in developing flexible Bayesian methods for causal mediation problems using semi-parametric Bayesian machine learning models. I expect to graduate in May 2025.
-
-
+I am a graduate student at the University of Florida, working on my Ph.D. in Statistics. My academic advisor is Dr. Michael J. Daniels. My research interests lie at the intersection of Bayesian statistics, causal inference, and machine learning. I expect to graduate in August 2025.
+ 
 
 
 ## Recent Updates
 
-  * May 2023 - Aug 2023: Summer internship at Regeneron Pharmaceuticals in Tarrytown, New York 
+  * Dec 2024: Contributed Talk at IBC 2024, Atlanta, Georgia
+      * **Paper**: A Bayesian semi-parametric approach to causal mediation for longitudinal mediators and time-to-event outcomes
+    
+  * Oct 2024: Advanced to Ph.D. candidacy
+      
+  * Fall 2024: I an teaching an undergraduate level course 'STA 3024: Intro to Statistics II' at UF
+
+  * Aug 2024: Contributed Talk at JSM 2024, Portland, Oregon
+      * **Paper**: A Bayesian semi-parametric approach to causal mediation for longitudinal mediators and time-to-event outcomes
   
   * Dec 2023: Invited Talk at CMStatistics 2023, Berlin, Germany
       * **Paper**: A Bayesian semi-parametric approach to causal mediation for longitudinal mediators and time-to-event outcomes
   
-
+  * May 2023 - Aug 2023: Summer internship at Regeneron Pharmaceuticals in Tarrytown, New York 
