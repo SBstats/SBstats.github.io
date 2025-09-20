@@ -16,8 +16,8 @@ I am a postdoctoral scholar at the University of Chicago, working with Professor
 
 ## Upcoming Events / Talks
 
-    * Our paper *A Bayesian semi-parametric approach to causal mediation for longitudinal mediators and time-to-event outcomes with application to a cardiovascular disease cohort study* has been accepted for publication in *Biostatistics*.
-    * **ArXiv link**: https://arxiv.org/abs/2411.18739
+    * Our paper *A Bayesian semi-parametric approach to causal mediation for longitudinal mediators and time-to-event outcomes with application to a cardiovascular disease cohort study* has been accepted for publication in *Biostatistics*. [[ArXiv link]](https://arxiv.org/abs/2411.18739)
+
 
 
 ## Recent Updates
