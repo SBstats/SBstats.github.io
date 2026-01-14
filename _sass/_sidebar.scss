@@ -89,9 +89,13 @@
 
   img {
     max-width: 200px;
-    border-radius: $border-radius-lg;
+    border-radius: 0;
     transition: $global-transition;
-    box-shadow: 0 8px 30px rgba($primary-color, 0.15);
+    box-shadow: none;
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
 
     @include breakpoint($large) {
       padding: 0;
@@ -102,7 +106,6 @@
 
     &:hover {
       transform: scale(1.02);
-      box-shadow: 0 12px 40px rgba($primary-color, 0.25);
     }
   }
 }
@@ -247,7 +250,7 @@
 
     @include breakpoint($large) {
       display: inline-block;
-      margin: 0.2em;
+      margin: 0.5em;
     }
   }
 
