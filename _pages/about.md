@@ -24,7 +24,7 @@ My methodological research interests lie at the intersection of Bayesian statist
 
   * Aug 2026: Topic Contributed Talk at JSM 2026, Boston, MA
 
-  * I will be giving two guest lectures on causal inference and machine learning in the PHS 31001- Epidemiological Methods class at UChicago
+  * Jan-Feb 2026: I will be giving two guest lectures on causal inference and machine learning in the PHS 31001- Epidemiological Methods class at UChicago
 
   * Feb 2026: Invited Talk at UIC Biostatistics Seminar Series
 

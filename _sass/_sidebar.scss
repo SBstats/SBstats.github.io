@@ -249,8 +249,9 @@
     white-space: nowrap;
 
     @include breakpoint($large) {
-      display: inline-block;
-      margin: 0.5em;
+      display: block;
+      margin: 0.4em 0;
+      text-align: center;
     }
   }
 
@@ -268,12 +269,12 @@
       display: inline-flex;
       align-items: center;
       justify-content: center;
+      gap: 0.5em;
       margin-bottom: 0;
-      padding: 0.6em;
-      width: 36px;
-      height: 36px;
+      padding: 0.6em 1em;
+      min-width: 140px;
       background: #fff;
-      border-radius: 50%;
+      border-radius: $border-radius;
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 
       .fas, .fab, .far, .fal, .ai {
@@ -282,17 +283,23 @@
       }
 
       .label {
-        display: none;
+        display: inline;
+        font-size: $type-size-6;
+        color: $dark-gray;
       }
     }
 
     &:hover {
       color: #fff;
       background: $primary-color;
-      transform: translateY(-3px);
+      transform: translateY(-2px);
       box-shadow: 0 4px 12px rgba($primary-color, 0.3);
 
       .fas, .fab, .far, .fal, .ai {
+        color: #fff;
+      }
+
+      .label {
         color: #fff;
       }
     }
