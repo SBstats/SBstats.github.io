@@ -3,36 +3,57 @@
    ========================================================================== */
 
 table {
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
   width: 100%;
   font-family: $global-font-family;
   font-size: $type-size-6;
   border-collapse: collapse;
-  border: 1px solid $light-gray;
+  border: none;
+  border-radius: $border-radius;
+  overflow: hidden;
+  box-shadow: $box-shadow;
 
   & + table {
-    margin-top: 1em;
+    margin-top: 1.5em;
   }
 }
 
 thead {
-  background-color: $lighter-gray;
-  border-bottom: 1px solid $light-gray;
+  background-color: $primary-color;
+  color: #fff;
+  border-bottom: none;
 }
 
 th {
-  padding: 0.5em;
-  font-weight: bold;
+  padding: 0.875em 1em;
+  font-weight: 600;
   text-align: left;
-  border-right: 1px solid $light-gray;
+  border-right: none;
+  letter-spacing: 0.01em;
 }
 
 td {
-  padding: 0.5em;
-  border-bottom: 1px solid $light-gray;
-  border-right: 1px solid $light-gray;
+  padding: 0.875em 1em;
+  border-bottom: 1px solid $border-color;
+  border-right: none;
+}
+
+tr {
+  transition: $global-transition;
+
+  &:hover {
+    background-color: rgba($primary-color, 0.03);
+  }
+
+  &:last-child td {
+    border-bottom: none;
+  }
 }
 
 tr, td, th {
   vertical-align: middle;
+}
+
+tbody tr:nth-child(even) {
+  background-color: rgba($lighter-gray, 0.5);
 }

@@ -52,7 +52,8 @@
 
   h2 {
     padding-bottom: 0.5em;
-    border-bottom: 1px solid $border-color;
+    border-bottom: 2px solid $border-color;
+    margin-top: 2em;
   }
 
   p, li, dl {
@@ -73,13 +74,16 @@
   }
 
   a {
-    text-decoration: underline;
+    text-decoration: none;
+    color: $link-color;
+    border-bottom: 1px solid transparent;
+    transition: $global-transition;
 
     &:hover {
-      text-decoration: underline;
+      border-bottom-color: $link-color;
 
       img {
-        box-shadow: 0 0 10px rgba(#000, 0.25);
+        box-shadow: $box-shadow-hover;
       }
     }
   }
@@ -87,7 +91,8 @@
   dt {
     margin-top: 1em;
     font-family: $sans-serif;
-    font-weight: bold;
+    font-weight: 600;
+    color: $darker-gray;
   }
 
   dd {
@@ -104,6 +109,20 @@
   blockquote + .small {
     margin-top: -1.5em;
     padding-left: 1.25rem;
+  }
+
+  /* Lists styling */
+  ul, ol {
+    li {
+      margin-bottom: 0.5em;
+      line-height: 1.6;
+    }
+  }
+
+  /* Make images more polished */
+  img {
+    border-radius: $border-radius;
+    transition: $global-transition;
   }
 }
 

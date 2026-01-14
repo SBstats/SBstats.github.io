@@ -11,7 +11,7 @@
           transform: translate3d(0, 0 , 0);
 
   @include clearfix();
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
 
   @include breakpoint($large) {
     @include span(2 of 12);
@@ -41,7 +41,7 @@
   p, li {
     font-family: $sans-serif;
     font-size: $type-size-6;
-    line-height: 1.5;
+    line-height: 1.6;
   }
 
   img {
@@ -83,12 +83,20 @@
   }
 
   img {
-    max-width: 175px;
+    max-width: 200px;
     border-radius: 50%;
+    transition: $global-transition;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 
     @include breakpoint($large) {
-      padding: 5px;
-      border: 1px solid $border-color;
+      padding: 4px;
+      border: 3px solid $lighter-gray;
+      background: #fff;
+    }
+
+    &:hover {
+      transform: scale(1.02);
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
     }
   }
 }
@@ -105,28 +113,35 @@
     width: 100%;
     padding-left: 0;
     padding-right: 0;
+    text-align: center;
   }
 }
 
 .author__name {
   margin: 0;
+  color: $darker-gray;
 
   @include breakpoint($large) {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 8px;
   }
 }
 .sidebar .author__name {
   font-family: $sans-serif;
-  font-size: $type-size-5;
+  font-size: $type-size-4;
+  font-weight: 600;
+  letter-spacing: -0.01em;
 }
 
 .author__bio {
   margin: 0;
+  color: $gray;
+  line-height: 1.5;
 
   @include breakpoint($large) {
-    margin-top: 10px;
+    margin-top: 8px;
     margin-bottom: 20px;
+    font-size: $type-size-6;
   }
 }
 
@@ -169,7 +184,7 @@
   border-radius: $border-radius;
   background: #fff;
   z-index: -1;
-  box-shadow: 0 0 10px rgba(#000, 0.25);
+  box-shadow: $box-shadow-lg;
   cursor: default;
 
   @include breakpoint($large) {
@@ -218,20 +233,44 @@
 
   li {
     white-space: nowrap;
+
+    @include breakpoint($large) {
+      display: inline-block;
+      margin: 0.25em 0.15em;
+    }
   }
 
   a {
     display: block;
     margin-bottom: 5px;
-    padding-right: 5px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    color: inherit;
-    font-size: $type-size-5;
+    padding: 0.5em 0.75em;
+    color: $gray;
+    font-size: $type-size-6;
     text-decoration: none;
+    transition: $global-transition;
+    border-radius: $border-radius-sm;
+
+    @include breakpoint($large) {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 0;
+      padding: 0.5em;
+      background: $lighter-gray;
+
+      .fas, .fab, .far, .fal, .ai {
+        font-size: 1.1em;
+      }
+
+      .label {
+        display: none;
+      }
+    }
 
     &:hover {
-      text-decoration: underline;
+      color: $primary-color;
+      background: rgba($primary-color, 0.1);
+      transform: translateY(-2px);
     }
   }
 }

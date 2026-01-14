@@ -179,10 +179,13 @@
 
   a {
     display: block;
-    margin: 0 1rem;
+    margin: 0 1.25rem;
     padding: 0.5rem 0;
     color: $masthead-link-color;
     text-decoration: none;
+    font-weight: 500;
+    font-size: 0.95rem;
+    letter-spacing: 0.01em;
 
     &:hover {
       color: $masthead-link-color-hover;
@@ -193,12 +196,18 @@
     position: absolute;
     height: 100%;
     right: 0;
-    padding: 0 0.5rem;
+    padding: 0 0.75rem;
     border: 0;
     outline: none;
     background-color: $primary-color;
     color: #fff;
     cursor: pointer;
+    border-radius: $border-radius-sm;
+    transition: $global-transition;
+
+    &:hover {
+      background-color: darken($primary-color, 8%);
+    }
   }
 
   .visible-links {
@@ -209,10 +218,13 @@
       vertical-align: middle;
 
       &:first-child {
-        font-weight: bold;
+        font-weight: 700;
 
         a {
           margin-left: 0;
+          font-size: 1.1rem;
+          color: $primary-color;
+          letter-spacing: -0.01em;
         }
       }
 
@@ -230,15 +242,17 @@
         content: "";
         position: absolute;
         left: 0;
-        bottom: 0;
-        height: 4px;
-        background: mix(#fff, $primary-color, 50%);
+        bottom: -2px;
+        height: 2px;
+        background: $primary-color;
         width: 100%;
         -webkit-transition: $global-transition;
         transition: $global-transition;
         -webkit-transform: scaleX(0);
             -ms-transform: scaleX(0);
                 transform: scaleX(0); /* hide*/
+        transform-origin: center;
+        border-radius: 2px;
       }
 
       &:hover:before {
@@ -254,20 +268,21 @@
     top: 100%;
     right: 0;
     margin-top: 15px;
-    padding: 5px;
+    padding: 0.5rem;
     border: 1px solid $border-color;
     border-radius: $border-radius;
     background: #fff;
-    box-shadow: 0 0 10px rgba(#000, 0.25);
+    box-shadow: $box-shadow-lg;
 
     a {
       margin: 0;
-      padding: 10px 20px;
+      padding: 0.75rem 1.25rem;
       font-size: $type-size-5;
+      border-radius: $border-radius-sm;
 
       &:hover {
-        color: $masthead-link-color-hover;
-        background: mix(#fff, $primary-color, 75%);
+        color: $primary-color;
+        background: $lighter-gray;
       }
     }
 
