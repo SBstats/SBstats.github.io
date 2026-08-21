@@ -20,25 +20,25 @@ My methodological research interests lie at the intersection of Bayesian statist
 
 
 
-## Upcoming Events / Talks
+## Recent Publications/Preprints 
 
-  * Aug 2026: Topic Contributed Talk at JSM 2026, Boston, MA
+  * **Aug 2026:** Bhandari, S., Kar, W., Daniels, M.J., Karmakar, B. Causal mediation analysis for longitudinal data in the presence of treatment non-compliance and multiple mediators. [ArXiv Link](https://arxiv.org/abs/2608.15775)
 
-  * Jan-Feb 2026: I will be giving two guest lectures on causal inference and machine learning in the PHS 31001- Epidemiological Methods class at UChicago
-
-  * Feb 2026: Invited Talk at UIC Biostatistics Seminar Series
+  * **May 2026:** Bhandari, S., Bhatti, P., Chiu, B., Ji, Y. Semi-parametric Bayesian additive regression trees for risk prediction with high-dimensional epigenetic signatures and low-dimensional covariates. [ArXiv Link](https://arxiv.org/abs/2605.20143) 
 
   
 
 
 
-## Recent Updates
+## Recent Events / Talks
     
-  * Sep 2025: Started as a postdoctoral scholar at the University of Chicago. 
-
-  * Aug 2025: Topic Contributed Talk at JSM 2025, Nashville, TN 
+  * **Aug 2026:** Topic Contributed Talk at JSM 2026, Boston, MA
   
-  * Aug 2025: Ph.D. graduation from the University of Florida 
+  * **July 2026:** Invited Talk at ISBA 2026, Nagoya, Japan
+
+  * **Jan-Feb 2026:** Two guest lectures on causal inference and machine learning in the PHS 31001- Epidemiological Methods class at UChicago
+
+  * **Feb 2026:** Invited Talk at UIC Biostatistics Seminar Series
     
   
       
