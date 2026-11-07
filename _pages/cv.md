@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-A copy of my recent CV can be found [here](/files/Bhandari_CV_08212026.pdf).
+A copy of my recent CV can be found [here](/files/Academic_CV_11072026.pdf).
